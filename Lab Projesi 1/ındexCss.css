@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: darkgrey; /* Navbar background color */
+  border: 25%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar ul {
+  background-color: Silver;
+  list-style-type: none;
+  width: 100%;
+  text-decoration: none;
+}
+
+#resources-content {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  margin-top: 0px;
+  margin-left: -10px;
+  width: 60px;
+}
+
+.navbar a:hover {
+  background-color: red; /* Change color on hover */
+  color: black;
+}
+
+.related p,
+ul,
+li {
+  color: grey;
+}
+
+.container {
+  display: flex; /* Use flexbox to arrange the children side by side */
+}
+
+.div2 h2 {
+  color: red;
+}
+
+.div2 img {
+  width: 150px;
+  height: 150px;
+}
+
+.line {
+  border: 1px solid lightslategrey;
+  height: 200px;
+  margin-left: 40px;
+  margin-right: 7px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: red;
+}
+
+.container3 {
+  margin-left: 165px;
+}
+a {
+  color: inherit; /* Varsayılan renk kullanılacak (örneğin, siyah) */
+  text-decoration: none; /* Altçizgiyi kaldır */
+}
+
+.right h2{
+  margin-left:28px;
+}
+
+.bottom-box{
+  background-color:beige;
+  
+}
+.bottom-box p {
+  color:darkgray;
+  text-align: center;
+}

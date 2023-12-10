@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proje2.css">
+   
+   
+    <title>Document</title>
+</head>
+<body>
+
+  <div class="fur">  
+    <form id="calculator-form">
+
+        <h2>  Arithmatic Operations</h2>
+        <div class="horizontal ">
+       
+        </div> 
+
+        <div class="num1">  
+        <label for="number1">Number 1:</label>
+        <input type="number" id="number1" required>
+        </div>
+        <div class="num2">  
+        <label for="number2">Number 2:</label>
+        <input type="number" id="number2" required>
+        </div>
+        
+    
+        <div class="button"> 
+         
+            <button type="button" onclick="calculateResult('add')">Addition</button>
+            <button type="button" onclick="calculateResult('subtract')">Subtraction</button>
+            <button type="button" onclick="calculateResult('multiply')">Multiplication</button>
+            <button type="button" onclick="calculateResult('divide')">Division</button>
+        </div>
+        <label for="result">Result:</label>
+        <input type="result" id="result" required>
+      </form>
+    </div>
+   
+  
+    <script src="proje2.js"></script>
+</body>
+</html>

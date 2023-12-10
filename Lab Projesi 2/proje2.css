@@ -1,0 +1,39 @@
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:yellow;
+    
+}
+
+
+.fur {
+    text-align: left;
+
+
+}
+
+.button {
+    margin-bottom: 15px
+}
+
+.num1, .num2{
+display:block;
+margin-bottom: 20px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.horizontal {
+height: 1px;
+width: 100%;
+margin:20px;
+background-color: red;
+
+} 
