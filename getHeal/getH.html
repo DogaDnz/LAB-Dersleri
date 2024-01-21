@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="getH.css">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+  
+
+
+</div>
+
+
+
+<a href="#" class="logo"> 
+    <img src="/HealthyLifeBlog/logo.png" alt="">
+  </a>
+
+  <i class='bx bx-menu' id="menu-icon"></i>
+
+  <ul class="navbar">
+   <li><a href="#home">Home</a></li>
+   <li><a href="#about">About Us</a></li>
+   <li><a href="#products">Products</a></li>
+   <li><a href="#customers">Customers</a></li>
+
+   </ul>
+
+<div class="header-icon">
+ <i class='bx bx-cart-alt' ></i>
+ 
+ </div>
+
+
+
+
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>It is Time for <br> Healthy Eating!</h1>
+            <p>
+                There is no need to get tired of eating tasteless food to eat healthy anymore! Meet our new creative and easy options.Whenever you want, wherever you want, at the most affordable prices.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+        <div class="home-img">
+            <img src="" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/Adsız tasarım (4).png" alt="">
+        </div>
+      <div class="about-text">
+        <h2>ABOUT US</h2>
+        <p>Founded in 2010, GetHealthy was born out of a shared love for wholesome ingredients and the belief that good food can be both delicious and nourishing.</p>
+        <p>Our culinary journey is guided by a commitment to providing a wide array of mouthwatering options that cater to various tastes and dietary preferences.</p>
+        <p>We are on a mission to redefine healthy eating by showcasing the artistry of nutritious and delicious meals. </p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="product" id="products">
+        <div class="heading">
+     <h2>Our Popular Products</h2>
+        </div>
+
+        <div class="product-container">
+
+
+            <div class="box">
+             <img src="/frozenbanana.jpg" alt="">
+             <h3>Frozen Banana</h3>
+             <div class="content">
+                <span>$25</span>
+                <button onclick="addToCart()" class="js-button3">Add to Cart</button>
+             </div>
+            </div>
+
+             <div class="box">
+                <img src="/frozenberry.jpg" alt="">
+                <h3>Frozen Berry</h3>
+                <div class="content">
+                   <span>$25</span>
+                   <button onclick="addToCart()" class="js-button3">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/WheyProtein.webp" alt="">
+                <h3>Whey Protein</h3>
+                <div class="content">
+                   <span>$25</span>
+                   <button onclick="addToCart()" class="js-button3">Add to Cart</button>
+                </div>
+                </div>
+              </div>
+            <div class="product-container">  
+                <div class="box">
+                    <img src="/coconutoil.jpg" alt="">
+                    <h3>Coconut Oil</h3>
+                    <div class="content">
+                       <span>$25</span>
+                       <button onclick="addToCart()" class="js-button3">Add to Cart</button>
+                    </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="/avacadodices.webp" alt="">
+                        <h3>Avacado Dices</h3>
+                        <div class="content">
+                           <span>$25</span>
+                           <button onclick="addToCart()" class="js-button3">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    
+                    <div class="box">
+                        <img src="/solgarvitaminE.webp" alt="">
+                        <h3>Solgar Vitamin E</h3>
+                        <div class="content">
+                           <span>$25</span>
+                           <button onclick="addToCart()" class="js-button3">Add to Cart</button>
+                        </div>
+                    </div>
+
+
+
+                    </div>
+
+
+                   
+              
+        </div>
+
+
+
+        <div class="heading">
+            <h2>  Products on Sale</h2>
+        </div>
+
+        <div class="product-container">
+
+
+            <div class="box">
+             <img src="/caulıpflower.jpg" alt="">
+             <h3>Vegan Chicken</h3>
+             <div class="content">
+                <span>$25</span>
+                <button onclick="addToCart()" class="js-button3">Add to Cart</button>
+             </div>
+            </div>
+
+             <div class="box">
+                <img src="/acaiBOw.jpeg" alt="">
+                <h3>Acai Bowl</h3>
+                <div class="content">
+                   <span>$25</span>
+                   <button onclick="addToCart()" class="js-button3">Add to Cart</button>
+                </div>
+            </div>
+
+                <div class="box">
+                    <img src="/WheyProtein.webp" alt="">
+                    <h3>Whey Protein</h3>
+                    <div class="content">
+                       <span>$25</span>
+                       <button onclick=" const buttonElement8 =document.querySelector('.js-button8')
+                       if(buttonElement8.innerHTML==='Add to Cart'){
+                         buttonElement8.innerHTML = 'Added';}
+                         else{
+                              buttonElement8.innerHTML = 'Add to Cart' ; 
+                             }"
+                     class="js-button8" >Add to Cart</button>
+                    </div>
+                    </div>
+
+               
+
+                   
+              
+        </div>
+
+        <div id="cart-counter" class="cart-counter">0</div>
+    </section>
+
+
+
+
+
+ 
+
+
+    <!-- Customers Section-->
+    <section class="customers" id="customers"> 
+        <div class="heading">
+            <h2>Our Customer's</h2>
+        </div>
+    <div class="customers-container">
+     <div class="box">
+      <div class="stars">
+
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star-half'></i>
+      </div>
+      <p>"As someone committed to a plant-based lifestyle, I've often struggled to find a reliable resource for diverse and flavorful vegan recipes. GetHealthy exceeded my expectations!"</p>
+   <h2>Yasin Arafat</h2>
+   <img src="/person1.avif" alt="">
+    </div>
+    
+
+
+    <div class="box">
+        <div class="stars">
+  
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p> "I can't get enough of the amazing products I discovered on GetHealthy! From nutrient-packed snacks to organic superfoods, every item is thoughtfully curated." </p>
+     <h2>Jasmin Scet</h2>
+     <img src="/positive-person2.avif" alt="">
+      </div>
+     
+
+
+
+      <div class="box">
+        <div class="stars">
+  
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>"As a fitness enthusiast, I'm always on the lookout for snacks that fuel my workouts without compromising on taste. The protein bars and pre-workout snacks I ordered exceeded my expectations."</p>
+     <h2>LindsayPattison</h2>
+     <img src="/LindsayPattison.jpg" alt="">
+      </div>
+      </div>
+    </div>
+    </section>
+
+
+
+    <section class="footer">
+        <div class="footer-box">
+            <h2>Coffee Shop</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </p>
+             <p>Assumenda in, iusto deserunt dicta quam distinctio  </p>    
+               
+     <div class="social">
+        <a href="https://www.facebook.com" target="_blank">  <i class='bx bxl-facebook' ></i> </a>
+        <a href="https://www.instagram.com" target="_blank">   <i class='bx bxl-instagram' ></i> </a>
+        <a href="https://www.twitter.com" target="_blank">   <i class='bx bxl-twitter' ></i> </a>
+        <a href="https://www.tiktok.com" target="_blank">  <i class='bx bxl-tiktok' ></i> </a>
+     </div>
+        </div>
+        <div class="footer-box">
+            <h3>Support</h3>
+        
+            <li><a href="help.html" target="_blank">Help & Support</a></li>
+            <li><a href="return.html" target="_blank">Return Policy</a></li>
+            <li><a href="terms.html" target="_blank">Terms of Use</a></li>
+       
+        </div>
+
+        <div class="footer-box">
+            <h3>View Guides</h3>
+            <li>Blog Posts</li>
+            <li> Branches</li>
+           
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact</h3>
+           <div class="contact">
+            <span><i class='bx bx-map' ></i>250,New York City, USA 10001</span>
+            <span><i class='bx bx-phone' ></i>+1 444 456 3472 </span>
+            <span><i class='bx bx-envelope' ></i>gethealthy@.com</span>
+           </div>
+           
+        </div>
+
+
+    </section>
+
+    <div class="copyright">
+        <p>&#169  CarpoolVenom All Rights Reserved</p>
+    </div>
+   <script src="getH.JS"></script> 
+</body>
+</html>
